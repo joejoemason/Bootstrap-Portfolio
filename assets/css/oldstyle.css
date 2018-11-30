@@ -1,0 +1,187 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+}
+
+
+
+#navbar {
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+   clear: both;
+ }
+
+@media screen and (max-width: 980px) {
+   .container{
+       float: none;
+       width: 100%;
+      background-color: lightblue;
+       }
+   }
+   @media screen and (max-width: 768px) {
+       .container{
+           float: none;
+           width: 100%;
+          background-color: lightpink;
+           }
+       }
+
+       @media screen and (max-width: 640px) {
+           .container{
+               float: left;
+               width: 100%;
+              background-color: rgb(172, 130, 130);
+               }
+           }
+#masthead {
+   position: fixed;
+   z-index: 99;
+   width: 100%;
+   margin: 0 0 30px;
+   overflow: auto;
+   color: #ffffff;
+   background: #ffffff;
+   border-bottom: 2px solid #cccccc;
+ }
+
+ @media screen and (max-width: 640px) {
+   #masthead {
+       float: none;
+       width: 100%;
+      background-color: rgb(41, 151, 68);
+      position: fixed;
+      top: 0;
+
+       }
+   }
+nav {
+  float: right;
+  margin-top: 25px;
+ }
+
+
+ @media screen and (max-width: 640px) {
+   nav {
+     float: left;
+
+     margin-top: 80px;
+
+       }
+   }
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 12px;
+    color: rgb(117, 115, 115);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(76, 187, 168);
+  }
+
+ 
+  
+  #active {
+    background-color: rgb(76, 187, 168);
+    color: rgb(241, 247, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    padding: 22px;
+    font-size: 21px;
+    height: 18px;
+
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+    
+    .container {
+    padding-left: 15%;
+    padding-right: 33%;
+    padding-top: 20px;
+    
+}
+
+.self {
+  float: left;
+  padding-right: 35px;
+
+}
+
+.image {
+    position: relative;
+    width: 90%;
+    height: 286px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper{
+    clear: both;
+    width: auto;
+
+}
+.first{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+}
+footer {
+    background-color: rgba(12, 238, 208, 0.767);
+}
+
+h4 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+     
+    
+}
+
+h1 { 
+  font-family: cursive ;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+  color: rgb(76, 187, 168);
+  
+  
+}
+h2 {
+    text-align: center;
+}
+
+#whole-page {
+    border-top: .2px;
+    border-top-color: rgb(171, 177, 177);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(233, 231, 224, 0.438);
+    
+}
+    h5 {
+        text-align: center;
+    }
+    h6 {
+        align-items: center;
+        margin-left: 155px;
+    }
+  }
